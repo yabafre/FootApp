@@ -14,8 +14,7 @@
 </template>
 
 <script>
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonLabel } from '@ionic/vue';
-import App from "@/App.vue";
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonList, IonItem, IonLabel, IonCard, IonCardHeader, IonCardTitle } from '@ionic/vue';
 import HeaderNav from "@/components/HeaderNav.vue";
 import FooterNav from "@/components/FooterNav.vue";
 export default {
@@ -23,7 +22,6 @@ export default {
     components: {
         FooterNav,
         HeaderNav,
-        App,
         IonPage,
         IonHeader,
         IonToolbar,
@@ -32,6 +30,9 @@ export default {
         IonList,
         IonItem,
         IonLabel,
+        IonCard,
+        IonCardHeader,
+        IonCardTitle,
     },
     data() {
         return {
