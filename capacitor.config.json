@@ -1,0 +1,6 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "FootApp",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}

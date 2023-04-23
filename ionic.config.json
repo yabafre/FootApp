@@ -1,0 +1,7 @@
+{
+  "name": "FootApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue-vite"
+}
