@@ -8,7 +8,9 @@
             </ion-buttons>
             <ion-title>{{ currentTitle }}</ion-title>
             <ion-buttons slot="end">
-                <ion-icon :icon="football()" size="large"></ion-icon>
+                <ion-button @click="$router.push({ name: 'Home' })">
+                    <ion-icon :icon="football()" size="large"></ion-icon>
+                </ion-button>
             </ion-buttons>
         </ion-toolbar>
     </ion-header>

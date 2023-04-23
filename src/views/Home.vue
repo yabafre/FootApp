@@ -2,11 +2,12 @@
     <ion-page>
         <header-nav></header-nav>
         <ion-content class="ion-content">
-                <ion-list>
-                    <ion-item v-for="league in leagues" :key="league.id" @click="openLeague(league.id)" button>
-                        <ion-label>{{ league.name }}</ion-label>
-                    </ion-item>
-                </ion-list>
+                <ion-card>
+                    <iframe src="https://giphy.com/embed/vp2V5Rf8t4jHpx1bKk" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                    <ion-card-header>
+                        <ion-card-title>FootApp</ion-card-title>
+                    </ion-card-header>
+                </ion-card>
         </ion-content>
         <footer-nav></footer-nav>
     </ion-page>
